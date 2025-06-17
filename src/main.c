@@ -5,7 +5,6 @@
 #include "esp_log.h"
 #include <math.h>
 #include "ssd1306.h"
-#include "esp_log.h"
 
 #define MPU6050_ADDR        0x68
 #define I2C_MASTER_NUM      I2C_NUM_0

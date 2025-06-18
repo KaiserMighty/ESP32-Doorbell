@@ -2,6 +2,7 @@
     "files.associations": {
         "freertos.h": "c",
         "esp_log.h": "c",
-        "ssd1306.h": "c"
+        "ssd1306.h": "c",
+        "nvs_flash.h": "c"
     }
 }

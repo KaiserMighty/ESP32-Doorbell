@@ -182,7 +182,7 @@ void app_main(void)
         {
             ESP_LOGI("MONITOR", "Vibration Detected! Raw: ax=%d ay=%d az=%d | Normalized: %.2f g", ax, ay, az, a);
             ssd1306_draw_text(I2C_MASTER_NUM, "VIBRATION DETECTED");
-            send_udp_broadcast("VIBRATION DETECTED");
+            send_udp_broadcast("DOORBELL_KNOCK");
             vTaskDelay(pdMS_TO_TICKS(1000));
             ssd1306_clear(I2C_MASTER_NUM);
         }
